@@ -12,5 +12,4 @@ for (var x = 0; x < myImg.width; x++) {
         ascList.push(data[2])
     }
 }
-
-str = String.fromCharCode.apply(null, ascList);
+String.fromCharCode.apply(null, ascList);
